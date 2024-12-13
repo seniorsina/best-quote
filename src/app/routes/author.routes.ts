@@ -9,6 +9,6 @@ router.post(
   authorService.createAuthor
 );
 
-router.get('/',authorService.authorList);
+router.get("/", authorService.authorList);
 
 export { router as authorRouter };

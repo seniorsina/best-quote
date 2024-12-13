@@ -2,7 +2,6 @@ import mongoose from "mongoose";
 import { seedAuthors } from "./authors.seeds";
 import { seedUsers } from "./user.seeds";
 
-
 const seedDatabase = async () => {
   try {
     await mongoose.connect("mongodb://localhost:27017/best-quotes", {});
