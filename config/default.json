@@ -1,0 +1,10 @@
+{
+  "app": {
+    "name": "best-quotes",
+    "port": 3000
+  },
+  "db": {
+    "connectionString": "mongodb://localhost:27017/best-quotes"
+  },
+  "jwt_key": "sfdafhgdskh2541@akhkgk"
+}
